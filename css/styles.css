@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+.header {
+	background: rgba(0,0,0,0);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+nav {
+	font-family: 'Amatic SC';
+	font-size: 30px;
+	text-shadow: 4px 4px #000;
+	color: white;
+	height: 70px;
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	color: white;
+	float: right;
+}
+
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: color .3s ease-in-out;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	transition: color .3s ease-in-out;
+}
+
+.main {
+	background-image: url('https://web3canvas.com/wp-content/uploads/2014/02/unsplash-high-quality-hd-banner-backgound-images-stock-photos-free-tab-iphone-mac-desk-topview-download.jpg');
+	background-size: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -10;
+	height: 1000px;
+	width: 100%;
+}
+
+.work {
+	background: rgba(1,1,1,1);
+	margin-top: 1000px;
+	padding: 10% 5% 10% 5%;
+	height: 1800px;
+	width: 100%;
+
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.work .row {
+	width: 100%;
+	height: 20%;
+}
+
+.col-xs-4 {
+	width: 33%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+.img-thumbnail {
+	background: #000;
+}
+
+.image-container {
+	position: relative;
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	transition: transform .3s ease-in-out;
+}
+
+.image-container:hover {
+	transform: scale(1.2);
+}
+
+.image-container:hover .overlay {
+	background: rgba(1,1,1,0);
+	transition: background .3s ease-in-out;
+}
+
+img {
+	width: 100%;
+	height: 100%;	
+}
+
+
+.image-container .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(1,1,1,.6);
+	transition: background .3s ease-in-out;
+}
+
+.text {
+	color: white;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.text a:hover, .text a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.text h2 {
+	font-family: 'Amatic SC';
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-shadow: 4px 4px #000;
+	margin-top: 20%;
+}
+
+.text h6 {
+	font-family: 'Amatic SC';
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px #000;
+}
+
+.contact {
+	position: fixed;
+	width: 100%;
+	height: 1000px;
+	background: #373737;
+	opacity: .8;
+	z-index: 30;
+}
+
+.footer {
+	height: 80px;
+	background: black;
+}
+
+.contact .row {
+	height: 37%;
+}
+
+#left {
+	padding-top: 30px;
+	padding-left: 300px;
+}
+
+#left h1 {
+	color: #66B9BF;
+	margin-bottom: 20px;
+	font-family: 'Anton';
+}
+
+form {
+	width: 300px;
+	color: black;
+}
+
+form p {
+	color: white;
+}
+
+form p, #email, #message {
+	width: 100%;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+	border-radius: 3px;
+}
+
+#email {
+	height: 30px;
+	background: #FFFEE9;
+	color: black;
+	padding-left: 10px;
+}
+
+#message {
+	height: 80px;
+	background: #FFFEE9;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#submit {
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	background: #66B9BF;
+	font-family: 'Anton';
+	font-size: 18px;
+}
+
+.portrait {
+	height: 90%;
+	padding-left: 150px;
+}
+
+.danny {
+	margin-top: 25px;
+	height: 320px;
+	width: 270px;
+}
+
+/* footer */
+
+
+.media {
+	padding-top: 10px;
+	padding-left: 38%;
+}
+
+.media li {
+	margin: 0;
+}
+
+.media img {
+	width: 40px;
+	height: 40px;
+}
+
+img#linked {
+	width: 25px;
+	height: 25px;
+}
+
+img#code {
+	width: 60px;
+	height: 60px;
+}
+
+
+
+
+

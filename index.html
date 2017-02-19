@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='icon' href="images/telegram.png?v=2">
+		<title>Daniel Sousa</title>
+		<link rel='stylesheet' href="css/bootstrap.min.css" type="text/css">
+		<link rel='stylesheet' href="css/styles.css?v=2" type="text/css">
+	</head>
+	<body ng-app="myApp">
+
+		<div class="header">
+			
+			<nav>
+				<ul>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#work">WORK</a></li>
+					<li><a href="#info">CONTACT</a></li>
+				<ul>
+			</nav>
+		</div>
+		
+		
+		<div class='main'>
+			
+			
+		</div>
+		
+		<div class='work' id="word" ng-controller="MainController">
+			<a name="work"></a>
+			<div class='container'>
+				<div class="row" ng-repeat="row in rows">
+					<app-info info="row"></app-info>
+				</div>	
+			</div> 
+		</div>
+
+		<a name="info"></a>
+		<div class='contact' id='contact'>
+			
+			<div class="row">
+				<div class="col-xs-6" id="left">
+					<h1>SAY HELLO!</h1>
+					<form action="mailto:sousa.danielg@gmail.com" method="post" enctype="text/plain">
+						<p>Email</p>
+						<input type="text" name="email" id="email"><br/>
+						<p>Message</p>
+						<textarea id="message"></textarea><br/>
+						<input type="submit" value="Submit" id="submit"/>
+					</form>
+				</div>
+				<div class="col-xs-6" id="right">
+					<div class='portrait'>
+						<img class="danny" src="images/me.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<ul class="media">
+					<li><a href="https://github.com/danielmooncloud" target="_blank"><img src="images/github.png" id="github"></a></li>
+					<li><a href="#"><img src="images/linkedin.png" id="linked" target="_blank"></a></li>
+					<li><a href="https://www.freecodecamp.com/danielmooncloud" target="_blank"><img src="images/code.png" id="code"></a></li>
+
+				</ul>
+			</div>
+		</div>
+		<script>
+
+			function parallax() {
+				var contact = document.getElementById('contact');
+				var scrollTop = window.pageYOffset;
+				contact.style.top = (3450 - (scrollTop * 1.6)) + 'px';
+			}
+
+			window.addEventListener('scroll', function() {
+
+				requestAnimationFrame(parallax)
+			}, false)
+			
+
+		</script>
+
+		<script src="js/app.vendor.js"></script>
+		<script src="js/app.bundle.js"></script>
+
+	</body>
+</html>
