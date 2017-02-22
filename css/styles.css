@@ -12,6 +12,8 @@ body {
 	background: black;
 }
 
+/* header */
+
 .header {
 	background: rgba(0,0,0,0);
 	position: fixed;
@@ -54,9 +56,14 @@ a:hover, a:focus {
 	transition: color .3s ease-in-out;
 }
 
+
+/* main */
+
+
 .main {
 	background-image: url('https://web3canvas.com/wp-content/uploads/2014/02/unsplash-high-quality-hd-banner-backgound-images-stock-photos-free-tab-iphone-mac-desk-topview-download.jpg');
 	background-size: 100%;
+	background-repeat: no-repeat;
 	position: fixed;
 	top: 0;
 	z-index: -10;
@@ -64,27 +71,28 @@ a:hover, a:focus {
 	width: 100%;
 }
 
+/* work */
+
 .work {
 	background: rgba(1,1,1,1);
-	margin-top: 1000px;
-	padding: 10% 5% 10% 5%;
-	height: 1820px;
+	padding: 10% 5% 5% 5%;
+	margin-top: 800px;
 	width: 100%;
-
 }
 
 .container {
 	width: 100%;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-.work .row {
+.row {
 	width: 100%;
-	height: 20%;
+	height: 300px;
 }
 
-.col-xs-4 {
-	width: 33%;
+.col-md-4, .col-sm-6, .col-xs-12 {
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -133,6 +141,7 @@ img {
 	height: 100%;
 	font-size: 20px;
 	text-align: center;
+	overflow: hidden;
 }
 
 .text a:hover, .text a:focus {
@@ -156,32 +165,32 @@ img {
 	text-shadow: 4px 4px #000;
 }
 
-.contact {
-	position: fixed;
-	width: 100%;
-	height: 550px;
-	background: #373737;
-	opacity: .8;
-	z-index: 30;
-}
 
-.footer {
-	height: 180px;
-	background: black;
+/* contact */
+
+.contact {
+	width: 100%;
+	height: 400px;
+	background: #373737;
 }
 
 .contact .row {
-	height: 70%;
+	height: 100%;
 }
 
 #left {
-	padding-top: 30px;
-	padding-left: 300px;
+	padding-left: 15%;
+	text-align: left;
+}
+
+#right {
+	text-align: center;
 }
 
 #left h1 {
 	color: #66B9BF;
-	margin-bottom: 20px;
+	margin-top: 10%;
+	margin-bottom: 5%;
 	font-family: 'Anton';
 }
 
@@ -226,18 +235,23 @@ form p, #email, #message {
 	font-size: 18px;
 }
 
-.portrait {
-	height: 90%;
-	padding-left: 150px;
+.portrait {	
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .danny {
-	margin-top: 25px;
 	height: 320px;
 	width: 270px;
 }
 
 /* footer */
+
+.footer {
+	height: 80px;
+	background: black;
+}
 
 
 .media {
@@ -262,6 +276,77 @@ img#linked {
 img#code {
 	width: 60px;
 	height: 60px;
+}
+
+
+/* media queries */ 
+
+@media (max-width: 992px) {
+	
+	.header {
+		background: rgba(1, 1, 1, 1);
+	}
+
+	.main {
+		top: 70px;
+	}
+
+	.work {
+		margin-top: 650px;
+	}	
+}
+
+@media (max-width: 769px) {
+
+	.work {
+		margin-top: 550px;
+		height: 3550px;
+		padding-bottom: 50px;
+	}
+
+	.work .row {
+		height: 8.3%;
+	}
+
+	#left {
+		padding-left: 5%;
+	}
+}
+
+@media (max-width: 670px) {
+	#right {
+		display: none;
+	}
+
+	.media {
+		padding: 0;
+		text-align: center;
+	}
+
+
+}
+
+@media (max-width: 480px) {
+	
+	.work {
+		margin-top: 300px;
+	}
+}
+
+@media (max-width: 410px) {
+	
+	.header {
+		padding-right: 0;
+	}
+
+	.row {
+		width: 100%;
+		margin: 0;
+	}
+
+	.col-xs-12, .col-sm-6, .col-md-4 {
+		margin: 0;
+	}
 }
 
 
