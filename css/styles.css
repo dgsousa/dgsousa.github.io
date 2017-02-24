@@ -92,7 +92,7 @@ a:hover, a:focus {
 	margin-right: 0%;
 	font-family: 'Pacifico';
 	font-size: 100px;
-	letter-spacing: 15px;
+	letter-spacing: 5px;
 	color: #68FA3A;
 	animation-name: welcome;
 	animation-duration: 4s;
