@@ -10,24 +10,24 @@
 	</head>
 	<body ng-app="myApp">
 
-		<div class="header">
+		<div class="header" scroll ng-init="slide = true" ng-class="{'header-black': scroll, 'header-transparent': !scroll}">
 			
 			<nav>
 				<ul>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#work">WORK</a></li>
-					<li><a href="#info">CONTACT</a></li>
+					<li><a href="#info" ng-click="slide = true">ABOUT</a></li>
+					<li><a href="#work" id="projects">WORK</a></li>
+					<li><a href="#info" ng-click="slide = false">CONTACT</a></li>
 				<ul>
 			</nav>
 		</div>
 		
-		
+
 		<div class='main'>
 			
-			
+			<h1>Welcome</h1>
 		</div>
 		
-		<div class='work' id="word" ng-controller="MainController">
+		<div class='work' id="work" ng-controller="MainController">
 			<a name="work"></a>
 			<div class='container'>
 				<div class="row" ng-repeat="row in rows">
@@ -36,11 +36,14 @@
 			</div> 
 		</div>
 
-		<a name="info"></a>
+	
+
+		
+		
 		<div class='contact' id='contact'>
 			
-			<div class="row">
-				<div class="col-xs-6" id="left">
+			<div class="row" ng-class="{'far-left': slide, 'left': !slide}">
+				<div id="col1">
 					<h1>SAY HELLO!</h1>
 					<form action="mailto:sousa.danielg@gmail.com" method="post" enctype="text/plain">
 						<p>Email</p>
@@ -50,21 +53,31 @@
 						<input type="submit" value="Submit" id="submit"/>
 					</form>
 				</div>
-				<div class="col-xs-6" id="right">
+				<div id="col2">
 					<div class='portrait'>
 						<img class="danny" src="images/me.jpg"/>
 					</div>
 				</div>
+				<div id="col3">
+					<h2>Oh, Hi There...</h2>
+					<h4>I'm Daniel Sousa and this is my personal portfolio.  I'm a Portland-based programmer looking to get started with a career in web development. I've spent the last year teaching myself the ins and outs of JavaScript and now I eat design patterns for breakfast and frameworks for lunch. Take a look around - you'll find everything from front-end projects in React to full-stack projects utilizing NodeJS, Express, MongoDB and Angular. Say hi or let me know what you think!</h4>
+				</div>
 			</div>
 		</div>
+
+		<a name="info"></a>
 		<div class="footer">
+			
 			<ul class="media">
 				<li><a href="https://github.com/danielmooncloud" target="_blank"><img src="images/github.png" id="github"></a></li>
 				<li><a href="#"><img src="images/linkedin.png" id="linked" target="_blank"></a></li>
 				<li><a href="https://www.freecodecamp.com/danielmooncloud" target="_blank"><img src="images/code.png" id="code"></a></li>
 			</ul>
 		</div>
+
+		<script>
 		
+		</script>
 
 		<script src="js/app.vendor.js"></script>
 		<script src="js/app.bundle.js"></script>
