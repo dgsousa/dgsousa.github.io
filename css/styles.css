@@ -159,7 +159,7 @@ img {
 	left: 0;
 	right: 0;
 	background: rgba(1,1,1,.6);
-	transition: background .3s ease-in-out;
+	transition: background .1s;
 }
 
 .text {
@@ -218,12 +218,12 @@ img {
 
 .far-left {
 	left: -50%;
-	transition: left .2s ease-out;
+	transition: left .1s;
 }
 
 .left {
 	left: 0%;
-	transition: left .2s ease-out;
+	transition: left .1s;
 }
 
 

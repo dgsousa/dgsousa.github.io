@@ -63,7 +63,7 @@ angular.module('myApp').directive("scroll", function($window) {
 
 	return function(scope, element, attrs) {
 		angular.element($window).bind("scroll", function() {
-			scope.scroll = this.pageYOffset >= 900;
+			scope.scroll = this.pageYOffset >= 1000;
 			scope.$apply();
 		});
 	}
