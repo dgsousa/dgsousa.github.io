@@ -15,13 +15,14 @@
 										  "img": "images/weather.png",
 										  "desc": "Built in AngularJS with NodeJS, Express and Webpack. Styled with Sass."
 										},
-										
 										{
-										  "title": "Simon",
-										  "url": "https://dgsousa.github.io/simon-game/",
-										  "img": "images/simon.png",
-										  "desc": "Built with object-oriented javascript and styled with Sass."
+										  "title": "Space Attack!",
+										  "url": "https://dgsousa.github.io/roguelike_dungeon_crawler/",
+										  "img": "images/roguelike.png",
+										  "desc": "Built with ReactJS and styled with Sass."
 										}
+										
+										
 								]
 					}, 
 					{
@@ -39,11 +40,12 @@
 										  "desc": "Built with object-oriented javascript and styled with Sass."
 										},
 										{
-										  "title": "Tic Tac Toe",
-										  "url": "https://dgsousa.github.io/tic-tac-toe/",
-										  "img": "images/tic.png",
+										  "title": "Simon",
+										  "url": "https://dgsousa.github.io/simon-game/",
+										  "img": "images/simon.png",
 										  "desc": "Built with object-oriented javascript and styled with Sass."
 										}
+										
 								]
 					},
 					{
@@ -61,11 +63,12 @@
 										  "desc": "Built in React with Webpack, and styled with Sass and Bootstrap."
 										},
 										{
-										  "title": "Twitch",
-										  "url": "https://dgsousa.github.io/twitch/",
-										  "img": "images/twitch.png",
-										  "desc": "Built in AngularJS."
+										  "title": "Tic Tac Toe",
+										  "url": "https://dgsousa.github.io/tic-tac-toe/",
+										  "img": "images/tic.png",
+										  "desc": "Built with object-oriented javascript and styled with Sass."
 										}
+										
 								]
 					},
 					{
@@ -83,11 +86,12 @@
 										  "desc": "Built with object-oriented javascript and styled with Sass."
 										},
 										{
-										  "title": "Camper Leaderboard",
-										  "url": "https://dgsousa.github.io/camper_leader_board/",
-										  "img": "images/camper.png",
-										  "desc": "Built in React with Webpack, and styled with Sass."
+										  "title": "Twitch",
+										  "url": "https://dgsousa.github.io/twitch/",
+										  "img": "images/twitch.png",
+										  "desc": "Built in AngularJS."
 										}
+										
 								]
 					}
 ]
