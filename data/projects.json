@@ -3,47 +3,46 @@
 					{
 						"projects": [
 										{
-										  "title": "Q & A",
-										  "url": "https://qa-danielsousa.herokuapp.com/",
-										  "img": "images/qa.png",
-										  "desc": "Built in AngularJS with MongoDB, NodeJS, Express and Webpack. Styled with Sass."
+											"title": "Vote-A-Rama",
+											"url": "https://voting-app-danielsousa.herokuapp.com",
+											"img": "images/voting-app.png",
+											"desc": "Built with React/React-Router/Redux/D3/NodeJS/Express/Firebase"
 										}, 
 										
 										{
-										  "title": "Weather",
-										  "url": "https://weather-danielsousa.herokuapp.com/",
-										  "img": "images/weather.png",
-										  "desc": "Built in AngularJS with NodeJS, Express and Webpack. Styled with Sass."
+											"title": "Weather",
+											"url": "https://weather-danielsousa.herokuapp.com/",
+											"img": "images/weather.png",
+											"desc": "Built in AngularJS with NodeJS, Express and Webpack. Styled with Sass."
 										},
 										{
-										  "title": "Space Attack!",
-										  "url": "https://dgsousa.github.io/roguelike_dungeon_crawler/",
-										  "img": "images/roguelike.png",
-										  "desc": "Built with ReactJS and styled with Sass."
+											"title": "Space Attack!",
+											"url": "https://dgsousa.github.io/roguelike_dungeon_crawler/",
+											"img": "images/roguelike.png",
+											"desc": "Built with ReactJS and styled with Sass."
 										}
-										
 										
 								]
 					}, 
 					{
 						"projects": [
 										{
-										  "title": "Game of Life",
-										  "url": "https://dgsousa.github.io/game_of_life/",
-										  "img": "images/life.png",
-										  "desc": "Built in React with Webpack, and styled with Sass."
+											"title": "Game of Life",
+											"url": "https://dgsousa.github.io/game_of_life/",
+											"img": "images/life.png",
+											"desc": "Built in React with Webpack, and styled with Sass."
 										}, 
 										{
-										  "title": "Pomodoro Clock",
-										  "url": "https://dgsousa.github.io/pomodoro_clock/",
-										  "img": "images/clock.png",
-										  "desc": "Built with object-oriented javascript and styled with Sass."
+											"title": "Pomodoro Clock",
+											"url": "https://dgsousa.github.io/pomodoro_clock/",
+											"img": "images/clock.png",
+											"desc": "Built with object-oriented javascript and styled with Sass."
 										},
 										{
-										  "title": "Simon",
-										  "url": "https://dgsousa.github.io/simon-game/",
-										  "img": "images/simon.png",
-										  "desc": "Built with object-oriented javascript and styled with Sass."
+											"title": "Q & A",
+											"url": "https://qa-danielsousa.herokuapp.com/",
+											"img": "images/qa.png",
+											"desc": "Built in AngularJS with MongoDB, NodeJS, Express and Webpack. Styled with Sass."
 										}
 										
 								]
@@ -51,22 +50,22 @@
 					{
 						"projects": [
 										{
-										  "title": "Markdown Previewer",
-										  "url": "https://dgsousa.github.io/markdown_previewer/",
-										  "img": "images/markdown.png",
-										  "desc": "Built in React with Webpack, and styled with Sass."
-										}, 
-										{
-										  "title": "Recipe Box",
-										  "url": "https://dgsousa.github.io/recipe_box/",
-										  "img": "images/recipe.png",
-										  "desc": "Built in React with Webpack, and styled with Sass and Bootstrap."
+											"title": "Markdown Previewer",
+											"url": "https://dgsousa.github.io/markdown_previewer/",
+											"img": "images/markdown.png",
+											"desc": "Built in React with Webpack, and styled with Sass."
 										},
 										{
-										  "title": "Tic Tac Toe",
-										  "url": "https://dgsousa.github.io/tic-tac-toe/",
-										  "img": "images/tic.png",
-										  "desc": "Built with object-oriented javascript and styled with Sass."
+											"title": "Simon",
+											"url": "https://dgsousa.github.io/simon-game/",
+											"img": "images/simon.png",
+											"desc": "Built with object-oriented javascript and styled with Sass."
+										},
+										{
+											"title": "Tic Tac Toe",
+											"url": "https://dgsousa.github.io/tic-tac-toe/",
+											"img": "images/tic.png",
+											"desc": "Built with object-oriented javascript and styled with Sass."
 										}
 										
 								]
@@ -74,22 +73,22 @@
 					{
 						"projects": [
 										{
-										  "title": "Wikipedia Viewer",
-										  "url": "https://dgsousa.github.io/wikipedia_viewer/",
-										  "img": "images/wik.png",
-										  "desc": "Built in AngularJS"
+											"title": "Wikipedia Viewer",
+											"url": "https://dgsousa.github.io/wikipedia_viewer/",
+											"img": "images/wik.png",
+											"desc": "Built in AngularJS"
 										}, 
 										{
-										  "title": "Calculator",
-										  "url": "https://dgsousa.github.io/calculator/",
-										  "img": "images/calc.png",
-										  "desc": "Built with object-oriented javascript and styled with Sass."
+											"title": "Calculator",
+											"url": "https://dgsousa.github.io/calculator/",
+											"img": "images/calc.png",
+											"desc": "Built with object-oriented javascript and styled with Sass."
 										},
 										{
-										  "title": "Twitch",
-										  "url": "https://dgsousa.github.io/twitch/",
-										  "img": "images/twitch.png",
-										  "desc": "Built in AngularJS."
+											"title": "Recipe Box",
+											"url": "https://dgsousa.github.io/recipe_box/",
+											"img": "images/recipe.png",
+											"desc": "Built in React with Webpack, and styled with Sass and Bootstrap."
 										}
 										
 								]
