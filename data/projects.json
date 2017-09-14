@@ -6,7 +6,7 @@
 											"title": "Vote-A-Rama",
 											"url": "https://voting-app-danielsousa.herokuapp.com",
 											"img": "images/voting-app.png",
-											"desc": "Built with React/React-Router/Redux/D3/NodeJS/Express/Firebase"
+											"desc": "Built with React/React-Router/Redux/D3/NodeJS/SocketIO/Firebase"
 										}, 
 										
 										{
